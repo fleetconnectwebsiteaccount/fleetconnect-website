@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://newapi.fleetconnect.biz; form-action 'self'; base-uri 'none'; object-src 'none'">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FleetConnect | Local taxis, booked in a tap</title>
+<meta name="description" content="FleetConnect connects riders with nearby drivers from local taxi companies. See your fare before you book, ride on a company account, and keep drivers safe with built-in work-hour limits.">
+<meta name="theme-color" content="#0b2036">
+<meta property="og:title" content="FleetConnect | Local taxis, booked in a tap">
+<meta property="og:description" content="Riders, drivers, taxi companies and businesses on one connected platform.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fleetconnect.biz/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="canonical" href="https://fleetconnect.biz/">
+<link rel="preload" href="InterDisplay-ExtraBold.woff" as="font" type="font/woff" crossorigin>
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="ic-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="11" fill="currentColor" opacity=".14"/><path d="M7 12.5l3.2 3.2L17 8.8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="ic-card" viewBox="0 0 36 36"><rect x="3" y="8" width="30" height="20" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M3 15h30" stroke="currentColor" stroke-width="2.4"/><path d="M8 22h8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="ic-lock" viewBox="0 0 36 36"><rect x="7" y="15" width="22" height="16" rx="4" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12 15v-3a6 6 0 0112 0v3" fill="none" stroke="currentColor" stroke-width="2.4"/><circle cx="18" cy="23" r="2.2" fill="currentColor"/></symbol>
+  <symbol id="ic-clock" viewBox="0 0 36 36"><circle cx="18" cy="18" r="13" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M18 10v8l5 3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+<a class="skip" href="#main">Skip to the content</a>
+
+<header class="top">
+  <svg class="route" viewBox="0 0 1440 760" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <path d="M-40 640 C 220 560, 340 700, 560 600 S 860 380, 1040 470 S 1300 300, 1500 160" fill="none" stroke="#24507a" stroke-width="3" stroke-dasharray="3 14" stroke-linecap="round"/>
+    <circle cx="1040" cy="470" r="9" fill="#24507a"/><circle cx="560" cy="600" r="9" fill="#24507a"/>
+  </svg>
+  <div class="wrap" style="position:relative">
+    <div class="bar">
+      <a class="brand" href="./" aria-label="FleetConnect home"><img src="logo.svg" width="26" height="31" alt=""><span>FleetConnect</span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="#how">How it works</a>
+        <a href="#who">Who it's for</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn-amber" href="#launch">Get launch news</a>
+      </nav>
+    </div>
+
+    <div class="hero" id="main">
+      <div>
+        <h1>Local taxis, <em>booked in a tap.</em></h1>
+        <p class="lead">FleetConnect connects riders with nearby drivers from local taxi companies. You see the fare before you book, the closest drivers are asked first, and everyone, from the passenger to the dispatcher, works from the same live picture.</p>
+        <div class="cta">
+          <a class="btn btn-amber" href="#launch">Get launch news</a>
+          <a class="btn btn-line" href="#contact">Talk to us</a>
+        </div>
+        <p class="note"><span class="dot"></span> Launching soon in New Zealand</p>
+      </div>
+
+      <div class="stage" role="img" aria-label="Example screens: a driver receiving a new job on the driver app, and a rider choosing a destination on the rider app">
+        <div class="phone p-driver" aria-hidden="true">
+          <div class="screen d-screen">
+            <div class="d-top"><b>FleetConnect Driver</b><span class="pill pill-on">Online</span></div>
+            <div class="map">
+              <svg viewBox="0 0 270 250" preserveAspectRatio="xMidYMid slice"><g stroke="#173d62" stroke-width="10" fill="none"><path d="M-10 60H280M-10 150H280M-10 225H280"/><path d="M60 -10V260M150 -10V260M230 -10V260"/></g><path d="M60 225V150H150V60H230" fill="none" stroke="#f5b700" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="60" cy="225" r="9" fill="#3ddc97"/><rect x="221" y="51" width="18" height="18" rx="5" fill="#f5b700"/></svg>
+            </div>
+            <div class="sheet">
+              <div class="sheet-head"><b>New job</b><div class="timer"><svg viewBox="0 0 46 46"><circle class="tr" cx="23" cy="23" r="18"/><circle class="tv" cx="23" cy="23" r="18"/></svg><span id="count">0:24</span></div></div>
+              <div class="fare-row"><span class="fare">$18.40</span><span class="pill pill-card">Card</span></div>
+              <div class="meta">3.2 km · 9 min trip</div>
+              <div class="stops">
+                <div class="stop"><i></i><div>Harbour Road<small>Pickup, 2 min away</small></div></div>
+                <div class="stop"><i class="sq"></i><div>Central Station<small>Drop-off</small></div></div>
+              </div>
+              <div class="mbtn mb-accept">Accept job</div>
+              <div class="mbtn mb-decline">Decline</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="phone p-rider" aria-hidden="true">
+          <div class="screen r-screen">
+            <div class="r-head">FleetConnect</div>
+            <div class="r-body">
+              <div class="r-ask">Where are you going?</div>
+              <div class="place"><i></i><div><small>Pickup</small><b>Harbour Road</b></div></div>
+              <div class="place"><i class="sq"></i><div><small>Drop-off</small><b>Central Station</b></div></div>
+              <div class="r-map"><svg viewBox="0 0 250 150" preserveAspectRatio="xMidYMid slice"><g stroke="#f3f5f8" stroke-width="9" fill="none"><path d="M-10 40H260M-10 110H260"/><path d="M50 -10V160M130 -10V160M205 -10V160"/></g><path d="M50 110V40H205" fill="none" stroke="#0f2a44" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="110" r="8" fill="#15803d"/><rect x="197" y="32" width="16" height="16" rx="4" fill="#f5b700"/></svg></div>
+              <div class="fare-card"><div><small>Your fare</small><b>$18.40</b></div><span>Shown before you book</span></div>
+              <div class="r-cta">Request ride</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="how" id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>From request to receipt, one connected trip.</h2>
+      <p>Every ride follows the same five steps, whether it is a quick hop across town or a booking made the day before.</p>
+    </div>
+    <div class="road">
+      <div class="leg"><h3>Ask for a ride</h3><p>Enter where you are going. The fare appears straight away, before you commit to anything.</p></div>
+      <div class="leg"><h3>Nearby drivers are asked</h3><p>The closest drivers who are online get the job first. If nobody answers, the search widens a little at a time.</p></div>
+      <div class="leg"><h3>A driver accepts</h3><p>You see your driver and vehicle, and follow them to your pickup.</p></div>
+      <div class="leg"><h3>Start with a code</h3><p>A one-time code confirms the right passenger is in the right car before the trip begins.</p></div>
+      <div class="leg"><h3>Pay and rate</h3><p>Pay by card or cash, or have the ride billed to a company account. Then rate your driver from one to five stars.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="who" id="who">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>One platform, four ways to use it.</h2>
+      <p>FleetConnect is built for everyone who makes a taxi trip happen.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Who FleetConnect is for">
+      <button class="tab" role="tab" id="tab-riders" aria-selected="true" aria-controls="p-riders" type="button">Riders</button>
+      <button class="tab" role="tab" id="tab-drivers" aria-selected="false" aria-controls="p-drivers" tabindex="-1" type="button">Drivers</button>
+      <button class="tab" role="tab" id="tab-companies" aria-selected="false" aria-controls="p-companies" tabindex="-1" type="button">Taxi companies</button>
+      <button class="tab" role="tab" id="tab-business" aria-selected="false" aria-controls="p-business" tabindex="-1" type="button">Businesses</button>
+    </div>
+
+    <div class="panel on" role="tabpanel" id="p-riders" aria-labelledby="tab-riders">
+      <div>
+        <h3>A fair fare, shown first.</h3>
+        <ul>
+          <li><svg><use href="#ic-check"/></svg><span><b>The fare is quoted before you book</b> and is the amount you pay.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Ride now or book ahead.</b> Scheduled rides are set in New Zealand time.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Pay your way:</b> card on a secure payment page, or cash to the driver.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Know who is coming.</b> See your driver and vehicle, and call them from the app.</span></li>
+        </ul>
+      </div>
+      <div class="mock light">
+        <div class="card white">
+          <span class="pill pill-warn">Your driver is on the way</span>
+          <div class="driver-line" style="margin-top:14px"><div class="avatar">A</div><div><b>Aroha</b><div class="stars" aria-hidden="true">★★★★★</div><div style="font-size:13.5px;color:#64748b">Silver hybrid</div></div></div>
+          <div class="ledger" style="margin-top:14px"><div><span>Distance</span><span>3.2 km · 9 min</span></div><div><span>Fare</span><span>$18.40</span></div></div>
+        </div>
+        <p class="mock-note">Example screen</p>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-drivers" aria-labelledby="tab-drivers" hidden>
+      <div>
+        <h3>Jobs that come to you.</h3>
+        <ul>
+          <li><svg><use href="#ic-check"/></svg><span><b>A new job rings and vibrates,</b> even when the phone is locked, with Accept and Decline right on the notification.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Clear at a glance:</b> the fare, the distance and how long you have to answer.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Go online when you want to work.</b> Your trips and earnings are in the app.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Rested drivers, safer rides.</b> Work-hour limits and break reminders look after you and your passengers.</span></li>
+        </ul>
+      </div>
+      <div class="mock">
+        <div style="width:100%;max-width:340px">
+          <div class="lock-time">9:41<small>Tuesday</small></div>
+          <div class="card notif">
+            <div><div class="t">New ride request</div><div class="b">Harbour Road</div></div>
+            <div class="row"><div class="mbtn mb-accept">Accept</div><div class="mbtn" style="border:2px solid var(--line);color:var(--text2)">Decline</div></div>
+          </div>
+          <p class="mock-note">Example lock screen</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-companies" aria-labelledby="tab-companies" hidden>
+      <div>
+        <h3>Run your fleet from one screen.</h3>
+        <ul>
+          <li><svg><use href="#ic-check"/></svg><span><b>Add your vehicles and drivers</b> and see who is online, busy or off.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Set your own fares,</b> or use the standard FleetConnect fare plan.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Follow every request and booking</b> as it happens, from first search to completed trip.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Clear statements.</b> See rides, fares and what is owed, so the books balance.</span></li>
+        </ul>
+      </div>
+      <div class="mock light">
+        <div class="card white">
+          <table class="mini">
+            <thead><tr><th>Driver</th><th>Vehicle</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr><td>Aroha</td><td>Hybrid</td><td><span class="pill pill-on" style="background:#dcfce7;color:#15803d">Online</span></td></tr>
+              <tr><td>Sam</td><td>Van</td><td><span class="pill pill-warn">On a job</span></td></tr>
+              <tr><td>Mere</td><td>Sedan</td><td><span class="pill pill-off">Offline</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="mock-note">Example fleet view</p>
+      </div>
+    </div>
+
+    <div class="panel" role="tabpanel" id="p-business" aria-labelledby="tab-business" hidden>
+      <div>
+        <h3>Rides on account.</h3>
+        <ul>
+          <li><svg><use href="#ic-check"/></svg><span><b>Put staff, customers or guests in a car</b> without anyone handling payment.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Every ride is billed to your company account,</b> not the passenger.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>One running statement:</b> ride charges, payments and your balance at a glance.</span></li>
+          <li><svg><use href="#ic-check"/></svg><span><b>Invoices you can use,</b> ready for your accounts team.</span></li>
+        </ul>
+      </div>
+      <div class="mock light">
+        <div class="card white">
+          <b>Company account</b>
+          <div class="ledger" style="margin-top:10px"><div><span>Ride, Tuesday</span><span class="neg">−$18.40</span></div><div><span>Ride, Wednesday</span><span class="neg">−$26.10</span></div><div><span>Payment received</span><span class="pos">+$200.00</span></div><div class="tot"><span>Credit remaining</span><span>$155.50</span></div></div>
+        </div>
+        <p class="mock-note">Example statement</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trust" id="safety">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Built carefully, because people rely on it.</h2>
+      <p>Trips, payments and personal details are handled with security first, not as an afterthought.</p>
+    </div>
+    <div class="trust-grid">
+      <div class="t-item"><svg><use href="#ic-card"/></svg><h3>Card details stay with the bank</h3><p>Cards are paid on Windcave's secure payment page. FleetConnect never sees or stores your card number.</p></div>
+      <div class="t-item"><svg><use href="#ic-lock"/></svg><h3>Locked-down sign-ins</h3><p>Staff and company panels ask for an emailed one-time code on every sign-in, and admin access is limited to approved people.</p></div>
+      <div class="t-item"><svg><use href="#ic-clock"/></svg><h3>Tired drivers stay off the road</h3><p>Drivers are logged off automatically after long shifts and must take a proper break before they can work again.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="launch" id="launch">
+  <div class="wrap">
+    <div>
+      <h2>Be first to know when we launch.</h2>
+      <p>Leave your email and we will tell you the moment FleetConnect is ready. Launch news only.</p>
+    </div>
+    <div>
+      <form class="sub" id="launch-form" novalidate>
+        <label class="sr" for="launch-email">Your email address</label>
+        <input id="launch-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="you@example.com" required maxlength="254">
+        <button class="btn" type="submit">Notify me</button>
+      </form>
+      <p class="msg" id="launch-msg" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div>
+      <h2>Talk to us.</h2>
+      <p class="intro">Questions about the apps, becoming a driver, joining as a taxi company, or setting up a business account? Send a message and we will reply by email.</p>
+      <div class="addr">
+        <div><small>General questions</small><a href="mailto:info@fleetconnect.biz">info@fleetconnect.biz</a></div>
+        <div><small>Help with the app</small><a href="mailto:support@fleetconnect.biz">support@fleetconnect.biz</a></div>
+      </div>
+    </div>
+    <form class="contact-form" id="contact-form" novalidate>
+      <div class="f2">
+        <label><span>Your name</span><input name="name" type="text" autocomplete="name" required maxlength="100"></label>
+        <label><span>Email</span><input name="email" type="email" inputmode="email" autocomplete="email" required maxlength="254"></label>
+      </div>
+      <div class="f2">
+        <label><span>Phone <span class="opt">(optional)</span></span><input name="phone" type="tel" inputmode="tel" autocomplete="tel" maxlength="30"></label>
+        <label><span>What is this about?</span>
+          <select name="subject" required>
+            <option value="General question">General question</option>
+            <option value="Help with the rider app">Help with the rider app</option>
+            <option value="Help with the driver app">Help with the driver app</option>
+            <option value="Becoming a driver">Becoming a driver</option>
+            <option value="Taxi company enquiry">Taxi company enquiry</option>
+            <option value="Business account enquiry">Business account enquiry</option>
+          </select>
+        </label>
+      </div>
+      <label><span>Message</span><textarea name="message" required maxlength="3000"></textarea></label>
+      <div class="trap" aria-hidden="true"><label>Leave this empty<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+      <button class="btn btn-navy" type="submit" id="contact-btn">Send message</button>
+      <p class="msg" id="contact-msg" role="status" aria-live="polite"></p>
+      <p class="fine">We use your details only to reply to your message. See our <a href="privacy.html">privacy policy</a>.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="brand" href="./" aria-label="FleetConnect home" style="color:#fff;font-size:19px"><img src="logo.svg" width="20" height="24" alt=""><span>FleetConnect</span></a>
+      <nav aria-label="Footer"><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="faq.html">Questions and answers</a><a href="#contact">Contact</a></nav>
+    </div>
+    <p class="copy">&copy; Hydrosings Limited</p>
+  </div>
+</footer>
+<script src="site.js" defer></script>
+</body>
+</html>
